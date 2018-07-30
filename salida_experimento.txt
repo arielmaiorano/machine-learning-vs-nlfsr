@@ -1,0 +1,91 @@
+Vecinos más próximos (Nearest Neighbors) - score general: 0.9694767441860465
+Matríz de confusión:
+[[1332    8]
+ [  34    2]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.98      0.99      0.98      1340
+   De período máximo       0.20      0.06      0.09        36
+
+         avg / total       0.95      0.97      0.96      1376
+
+###############################################################################
+Bayesiano ingenuo (Naive Bayes) - score general: 0.9484011627906976
+Matríz de confusión:
+[[1298   42]
+ [  29    7]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.98      0.97      0.97      1340
+   De período máximo       0.14      0.19      0.16        36
+
+         avg / total       0.96      0.95      0.95      1376
+
+###############################################################################
+SVM Lineal (Linear SVM) - score general: 0.9738372093023255
+Matríz de confusión:
+[[1340    0]
+ [  36    0]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.97      1.00      0.99      1340
+   De período máximo       0.00      0.00      0.00        36
+
+         avg / total       0.95      0.97      0.96      1376
+
+###############################################################################
+Árbol de decisión (Decision Tree) - score general: 0.9731104651162791
+Matríz de confusión:
+[[1339    1]
+ [  36    0]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.97      1.00      0.99      1340
+   De período máximo       0.00      0.00      0.00        36
+
+         avg / total       0.95      0.97      0.96      1376
+
+###############################################################################
+Bosques aleatorios (Random Forest) - score general: 0.9745639534883721
+Matríz de confusión:
+[[1340    0]
+ [  35    1]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.97      1.00      0.99      1340
+   De período máximo       1.00      0.03      0.05        36
+
+         avg / total       0.98      0.97      0.96      1376
+
+###############################################################################
+Red Neuronal (Neural Network, NN) - score general: 0.9745639534883721
+Matríz de confusión:
+[[1336    4]
+ [  31    5]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.98      1.00      0.99      1340
+   De período máximo       0.56      0.14      0.22        36
+
+         avg / total       0.97      0.97      0.97      1376
+
+###############################################################################
+NN Recurrente con LSTM (RNN with LSTM) - score general: 0.9643895348837209
+Matríz de confusión:
+[[1324   16]
+ [  33    3]]
+Reporte de resultados:
+                      precision    recall  f1-score   support
+
+De período NO máximo       0.98      0.99      0.98      1340
+   De período máximo       0.16      0.08      0.11        36
+
+         avg / total       0.95      0.96      0.96      1376
+
+###############################################################################
